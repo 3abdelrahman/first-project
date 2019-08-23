@@ -4,6 +4,70 @@ width: 50px;
 height: 50px;
 border-radius: 50%;
 position: absolute;
+}
 
+
+
+.caption p{
+    font-size: 40px;
+}
+.caption h1{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.advisors{
+    font-family: 'Poppins', sans-serif;
 
 }
+
+.advisors h2{
+    color: #002147;
+    font-weight: 700
+}
+.advisor{
+    position: relative;
+}
+.advisor .advisor-info{
+    background-color: #fff;
+    position: absolute;
+    bottom:15px;
+    left:15px;
+    right:15px;
+    transition: all 1s;
+        transition-delay: 0.3s;
+}
+.advisor-info span{
+    color: #ffb606;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.advisor .advisor-overlay{
+    background-color: rgba(0, 33, 71, 0.7);
+    position: absolute;
+    height: 92%;
+    bottom: 100%;
+    left: 15px;
+    right: 15px;
+    transition: all 1s;
+}
+.advisor-overlay p{
+    font-size: 13px;
+    
+}
+.advisor-overlay a{
+    color:#fed136;
+}
+.advisor:hover .advisor-overlay{
+    bottom: 15px;
+     
+}
+.advisor:hover .advisor-info{
+    bottom:-100%
+}
+/*
+-----------------------------------------------------------------------------------------------------------
+                    Created By MIsmail561
+-----------------------------------------------------------------------------------------------------------
+*/
